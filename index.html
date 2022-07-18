@@ -18,10 +18,11 @@
       font-size: 60px;
     }
     .project{
-      border-color: red;
+      border-color: green;
       width: 600px;
       border-width: 5px;
       border-style: solid;
+      margin: 20px;
     }
     .main{
       width: 1000px;
@@ -31,11 +32,17 @@
     .desc{
       width: 550px;
     }
+    #first{
+      border-color: black;
+      height: 5px;
+      down: 10px;
+      background-color: red;
+    }
     </style>
 <body>
   
-  <center id = "title"><a href = "">ezpotd: projects</a></center>
-  <hr>
+  <center id = "title"><a href = "">ezpotd's projects</a></center>
+  <hr id = "first">
   <center>
   <div class = "main">
     <div class = "project">
@@ -43,8 +50,19 @@
       <p class = "desc">Baby chrome extension that eases the process of alternating case for sarcastic effect. Although I pray one does not actually do this in practice, it is good fun to mock those who actually do so. Because google asks me to pay 5 dollars to publish this extension, I am leaving the packed version here, for you to load on your browser. I recommend assigning a keyboard shortcut. </p>
       <h3><a href = "alternator.zip">alternator.zip</a></h3>
     </div>
+     <div class = "project">
+      <h1>Writeups</h1>
+      <p class = "desc">Place for olympiad writeups.
+      <h3><a target = "blank" href = "https://usednoteworthybytecode.atvtheking.repl.co/">ezpotd's writeups</a></h3>
+    </div>
+    <div class = "project">
+      <h1>ezpotd</h1>
+      <p class = "desc">Poorly named amateur database highly designed for the project above. Simple, easy to use, and locally stored.
+      <h3><a target = "blank" href = "https://npmjs.com/ezpotd">npm link</a></h3>
+    </div>
   </div>
-    <center>
+  </center>
+  
 </body>
-
+      
 </html>
